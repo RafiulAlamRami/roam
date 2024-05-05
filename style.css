@@ -490,7 +490,7 @@ font-size: 2.5rem;
 
 .video{
   border-radius: 10px;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   min-width: 100%;
   min-height: 100%;
   object-fit:cover;
@@ -500,7 +500,7 @@ font-size: 2.5rem;
   font-size: 2.4rem;
   font-weight: 700;
   position: relative;
-  top: 22rem;
+  top: 43%;
   text-align: center;
   color: white;
 }
