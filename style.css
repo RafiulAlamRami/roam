@@ -453,7 +453,7 @@ font-size: 2.5rem;
 .simple-place{
   display: flex;
   gap: 2em;
-  margin: 5em 0;
+  margin: 10em 0;
 }
 
 .simple-place-content{
@@ -490,8 +490,11 @@ font-size: 2.5rem;
 
 .video{
   border-radius: 10px;
-  /* border: 1px solid black; */
-  padding-bottom: 15em;
+  border: 1px solid black;
+  min-width: 100%;
+  min-height: 100%;
+  object-fit:cover;
+  margin-top: -6em;
 }
 .video-text{
   font-size: 2.4rem;
