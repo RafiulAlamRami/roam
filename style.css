@@ -184,9 +184,14 @@ font-size: 2.5rem;
   line-height: 2.6rem;
 }
 
+.popular-content{
+  width: 50%;
+}
+
 .popular-title{
   font-size: 4rem;
   font-weight: 800;
+  line-height: 1em;
   color: rgb(19, 19, 24);
   padding-bottom: 2.5rem;
 }
@@ -222,11 +227,15 @@ font-size: 2.5rem;
 }
 
 .popular-img{
+  width: 50%;
 }
 
 .popular-tour-img{
-  height: 55em;
-  /* width: 45em; */
+  height: 60rem;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 /* Destination section */
@@ -706,6 +715,15 @@ font-size: 2.5rem;
     line-height: 2.6rem; */
 
   }
+
+  .popular-content{
+    width: 100%;
+  }
+
+  .popular-img{
+    width: 100%;
+  }
+
   .popular-tour-img{
     height: 100%;
     width: 100%;
